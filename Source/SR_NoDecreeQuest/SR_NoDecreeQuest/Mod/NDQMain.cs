@@ -7,7 +7,7 @@ namespace SR.NDQ.Mod
     public class NDQMain : Verse.Mod
     {
         public static NDQMain instance;
-        NDQModSetting modSetting;
+        public NDQModSetting modSetting;
         public Vector2 scrollPos;
         public NDQMain(ModContentPack content) : base(content)
         {
@@ -25,6 +25,7 @@ namespace SR.NDQ.Mod
             Listing_Standard ls = new Listing_Standard();
             ls.BeginScrollView(inRect,ref scrollPos,ref viewRect);
             if (ls.ButtonText("Default".Translate())) { modSetting.InitData(); }
+            ls.CheckboxLabeled("OpenMod".Translate(), ref modSetting.isOpenMod, "Open Mod");
             ls.CheckboxLabeled("OpenLog".Translate(), ref modSetting.isOpenLog, "This is just for developer to test");
             ls.EndScrollView(ref viewRect);
         }

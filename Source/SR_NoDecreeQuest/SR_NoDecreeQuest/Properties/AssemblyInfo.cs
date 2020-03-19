@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 有关程序集的一般信息由以下
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("SR")]
+[assembly: AssemblyTitle("SR_NoDecreeQuest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("SR")]
+[assembly: AssemblyProduct("SR_NoDecreeQuest")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("d3b4b9d8-1029-4027-9ee7-5c1dfa8015cf")]
+[assembly: Guid("76d51f7d-5981-4a74-8d69-fe29ea6c81b4")]
 
 // 程序集的版本信息由下列四个值组成: 
 //

@@ -1,0 +1,5 @@
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_NoDecreeQuest\Assemblies\SR_NoDecreeQuest.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_NoDecreeQuest\Assemblies\SR_NoDecreeQuest.pdb
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_NoDecreeQuest\Source\SR_NoDecreeQuest\SR_NoDecreeQuest\obj\Debug\SR_NoDecreeQuest.csproj.CoreCompileInputs.cache
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_NoDecreeQuest\Source\SR_NoDecreeQuest\SR_NoDecreeQuest\obj\Debug\SR_NoDecreeQuest.dll
+D:\SteamLibrary\steamapps\common\RimWorld\Mods\SR_NoDecreeQuest\Source\SR_NoDecreeQuest\SR_NoDecreeQuest\obj\Debug\SR_NoDecreeQuest.pdb

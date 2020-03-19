@@ -7,7 +7,7 @@ using SR.NDQ.Mod;
 
 namespace SR.NDQ.Patch
 {
-    class QuestUtility_Patch
+    public class QuestUtility_Patch
     {
         //[HarmonyPatch(typeof(QuestUtility))]
         //[HarmonyPatch("GenerateQuestAndMakeAvailable")]
@@ -18,6 +18,10 @@ namespace SR.NDQ.Patch
             static bool Prefix(ref Quest __result, QuestScriptDef root, Slate vars)
             {
                 NDQMain.instance.SRLog("GenerateQuestAndMakeAvailable");
+                if (!NDQMain.instance.modSetting.isOpenMod)
+                {
+                    return true;
+                }
                 bool isDecreeQuest = false;
                 if (root.decreeTags != null)
                 {
@@ -50,6 +54,10 @@ namespace SR.NDQ.Patch
             static bool Prefix(Quest quest)
             {
                 NDQMain.instance.SRLog("SendLetterQuestAvailable");
+                if (!NDQMain.instance.modSetting.isOpenMod)
+                {
+                    return true;
+                }
                 return quest != null;
             }
         }

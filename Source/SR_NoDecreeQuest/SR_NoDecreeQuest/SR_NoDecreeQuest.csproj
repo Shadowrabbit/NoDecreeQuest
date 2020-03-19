@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3B4B9D8-1029-4027-9EE7-5C1DFA8015CF}</ProjectGuid>
+    <ProjectGuid>{76D51F7D-5981-4A74-8D69-FE29EA6C81B4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SR</RootNamespace>
+    <RootNamespace>SR.NDQ</RootNamespace>
     <AssemblyName>SR_NoDecreeQuest</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -32,8 +31,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="0Harmony, Version=1.2.0.1, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="0Harmony">
       <HintPath>..\..\..\..\..\..\..\workshop\content\294100\2009463077\v1.1\Assemblies\0Harmony.dll</HintPath>
       <Private>False</Private>
     </Reference>
@@ -61,10 +59,10 @@
   <ItemGroup>
     <Compile Include="Mod\NDQMain.cs" />
     <Compile Include="Mod\NDQModSetting.cs" />
-    <Compile Include="Patch\QuestUtility_Patch.cs" />
+    <Compile Include="Patch\Pawn_RoyaltyTracker_Patch.cs" />
     <Compile Include="Patch\PatchMain.cs" />
+    <Compile Include="Patch\QuestUtility_Patch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
