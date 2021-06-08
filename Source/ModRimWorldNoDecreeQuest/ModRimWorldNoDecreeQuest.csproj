@@ -56,10 +56,8 @@
     <ItemGroup>
         <Compile Include="Debug\DebugActionsRoyaltyExtension.cs" />
         <Compile Include="Patch\PatchMain.cs" />
-        <Compile Include="Patch\Pawn_RoyaltyTracker_Patch.cs" />
+        <Compile Include="Patch\PawnRoyaltyTrackerPatch.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="UI\UIModelMain.cs" />
-        <Compile Include="UI\UIWindowMain.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

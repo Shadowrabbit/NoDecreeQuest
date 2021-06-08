@@ -4,3 +4,9 @@ E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SR_NoDecreeQuest\Sou
 E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SR_NoDecreeQuest\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.csproj.CoreCompileInputs.cache
 E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SR_NoDecreeQuest\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.dll
 E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\SR_NoDecreeQuest\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.pdb
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldNoDecreeQuest\Assemblies\ModRimWorldNoDecreeQuest.dll
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldNoDecreeQuest\Assemblies\ModRimWorldNoDecreeQuest.pdb
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldNoDecreeQuest\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.csprojAssemblyReference.cache
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldNoDecreeQuest\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.csproj.CoreCompileInputs.cache
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldNoDecreeQuest\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.dll
+E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimWorldNoDecreeQuest\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.pdb

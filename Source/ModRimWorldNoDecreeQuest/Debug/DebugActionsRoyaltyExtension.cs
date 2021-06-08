@@ -12,17 +12,21 @@ using Verse;
 
 namespace SR.ModRimWorld.NoDecreeQuest
 {
-	[UsedImplicitly]
-	public static class DebugActionsRoyaltyExtension
-	{
-		[DebugAction("General", "发布法令", allowedGameStates = AllowedGameStates.PlayingOnMap)]
-		private static void Award4RoyalFavor()
-		{
-			var debugMenuOptionList = Find.FactionManager.AllFactions
-				.Where(f => f.def.RoyalTitlesAwardableInSeniorityOrderForReading.Count > 0).Select(localFaction =>
-					new DebugMenuOption(localFaction.Name, DebugMenuOptionMode.Tool,
-						() => UI.MouseCell().GetFirstPawn(Find.CurrentMap)?.royalty.IssueDecree(true, "随随便便的理由"))).ToList();
-			Find.WindowStack.Add(new Dialog_DebugOptionListLister(debugMenuOptionList));
-		}
-	}
+    [UsedImplicitly]
+    public static class DebugActionsRoyaltyExtension
+    {
+        /// <summary>
+        /// 测试生成法令
+        /// </summary>
+        [UsedImplicitly]
+        [DebugAction("SR.ModRimWorld.NoDecreeQuest", "Issue decree", allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        private static void IssueDecree()
+        {
+            var debugMenuOptionList = Find.FactionManager.AllFactions
+                .Where(f => f.def.RoyalTitlesAwardableInSeniorityOrderForReading.Count > 0).Select(localFaction =>
+                    new DebugMenuOption(localFaction.Name, DebugMenuOptionMode.Tool,
+                        () => UI.MouseCell().GetFirstPawn(Find.CurrentMap)?.royalty.IssueDecree(true, "test reason"))).ToList();
+            Find.WindowStack.Add(new Dialog_DebugOptionListLister(debugMenuOptionList));
+        }
+    }
 }
