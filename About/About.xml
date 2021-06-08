@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-<packageId>SR.NoDecreeQuest</packageId>
-  <name>No Decree Quest</name>
+<packageId>SR.ModRimWorld.NoDecreeQuest</packageId>
+  <name>[SR]No Decree Quest</name>
   <author>Shadowrabbit</author>
   <supportedVersions>
-    <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <modDependencies>
 		<li>
@@ -19,6 +19,5 @@
 		<li>Ludeon.RimWorld.Royalty</li>
 		<li>brrainz.harmony</li>
     </loadAfter>
-  <description>remove decree quests.
-  </description>
+  <description>remove decree quests.</description>
 </ModMetaData>
