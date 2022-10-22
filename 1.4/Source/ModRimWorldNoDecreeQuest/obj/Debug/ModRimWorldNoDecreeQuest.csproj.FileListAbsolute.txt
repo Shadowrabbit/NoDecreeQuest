@@ -1,0 +1,6 @@
+C:\Users\ausu\Desktop\NoDecreeQuest\1.4\Assemblies\ModRimWorldNoDecreeQuest.dll
+C:\Users\ausu\Desktop\NoDecreeQuest\1.4\Assemblies\ModRimWorldNoDecreeQuest.pdb
+C:\Users\ausu\Desktop\NoDecreeQuest\1.4\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.csproj.AssemblyReference.cache
+C:\Users\ausu\Desktop\NoDecreeQuest\1.4\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.csproj.CoreCompileInputs.cache
+C:\Users\ausu\Desktop\NoDecreeQuest\1.4\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.dll
+C:\Users\ausu\Desktop\NoDecreeQuest\1.4\Source\ModRimWorldNoDecreeQuest\obj\Debug\ModRimWorldNoDecreeQuest.pdb
